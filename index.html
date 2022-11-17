@@ -15,15 +15,15 @@
     />
 </head>
 <body class="bg-dark">
-    <div class="wrapper">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">UFO Sightings</a>
-        </nav>
-    </div>
+  <div class="wrapper">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">UFO Sightings</a>
+      </nav>
+    
     <div class="jumbotron">
-      <h1 class="display-4">The Truth is Out There</h1>
+        <h1>The Truth Is Out There</h1>
     </div>
-    <div class="container-fluid">
+  <div class="container-fluid">
         <div class="row">
           <div class="col-md-4">
             <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
@@ -36,23 +36,38 @@
             </p>
           </div>
         </div>
-      </div>  
+  </div>  
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-            <form class="bg-dark">
-              <p>Filter Search</p>
-              <ul class="bg-dark list-group">
-                <li class="bg-dark list-group-item">
-                  <label for="date">Enter Date</label>
-                  <input type="text" placeholder="1/10/2010" id="datetime" />  
+            <form>
+                <p>Filter Search</p>
+                <ul class="list-group bg-dark">
+
+                </ul>
+                <li class="list-group-item bg-dark">
+                    <label for="date">Enter Date</label>
+                    <input type="text" placeholder="1/10/2010" id="datetime" size= "25" />
                 </li>
-                <li class="bg dark list-group-item">
-                  <button id="filter-btn" type="button" class="btn-dark" style="width:100%">
-                    Filter Table
-                  </button>
+                <li class="list-group-item bg-dark">
+                  <label for="city">Enter a city</label>
+                  <p><input type="text" placeholder="roswell" id="city" size="38" /></p>
                 </li>
-              </ul>
+                <li class="list-group-item bg-dark">
+                  <label for="state">Enter a State</label>
+                  <p><input type="text" placeholder="ca" id="state" size="38" /></p>
+                </li>
+                <li class="list-group-item bg-dark">
+                  <label for="country">Enter a Country</label>
+                  <p></p><input type="text" placeholder="us" id="country" size="38" /></p>
+                </li>
+                <li class="list-group-item bg-dark">
+                  <label for="shape">Enter a Shape</label>
+                  <p></p><input type="text" placeholder="circle" id="circle" size="38" /></p>
+                </li>
+                <li class="list-group-item bg-dark">
+                
+                </li>
             </form>
           </div>
           <div class="col-md-9">
