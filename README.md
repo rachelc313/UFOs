@@ -9,7 +9,11 @@ The purpose of the analysis was to create a website with Dana's article, a table
 ## Results
 After navigating to the website, there are five search filters. When the user types in the search criteria then navigates out of the textbox or presses enter, the table filters to the applicable data. 
 
+![Filter_Search](https://user-images.githubusercontent.com/111570965/204027639-8e5a8a15-5d7d-4e75-a21e-4791622b50e3.png)
+
 The table can be filtered even further by adding more search criteria.
+
+![Filter_Search2](https://user-images.githubusercontent.com/111570965/204027650-4171a132-f110-463a-b974-ce6c46794cc4.png)
 
 ## Summary
 A drawback of the website is that all of the data is displayed on the page and there is only one page to the website.
